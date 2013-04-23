@@ -1,0 +1,26 @@
+/* $baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen); */
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+	font-size: 100%; /* Makes the font go to 16 pixels */
+}
+h1 {
+	 font: 1.125em arial; /* 18px :  16px = 1.2em*/
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
+.home_bg {
+	background-image: url('/assets/bg_home.jpg');
+	color: white;	
+}
